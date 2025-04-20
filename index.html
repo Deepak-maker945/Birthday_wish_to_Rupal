@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>Rupal</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="loading.css">
+	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" href="cake.less">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="cursor"> </div>
+	
+	<div id="content">
+		<div class="loading"></div>
+		<audio class="song" controls loop>
+			<source src="Happy_birthday_to_you_MIDI(chosic.com).mp3">
+			</source>
+			<!-- Your browser isn't invited for super fun audio time. -->
+		</audio>
+
+		<img src="Images/Balloon-Border.png" width="100%" class="balloon-border">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-xs-2 bulb-holder">
+					<img class="bulb" src="Images/bulb_yellow.png" alt="Yellow Bulb">
+				</div>
+				<div class="col-md-2 col-xs-2 bulb-holder">
+					<img class="bulb" src="Images/bulb_red.png" alt="Red Bulb">
+				</div>
+				<div class="col-md-2 col-xs-2 bulb-holder">
+					<img class="bulb" src="Images/bulb_blue.png" alt="Blue Bulb">
+				</div>
+				<div class="col-md-2 col-xs-2 bulb-holder">
+					<img class="bulb" src="Images/bulb_green.png" alt="Green Bulb">
+				</div>
+				<div class="col-md-2 col-xs-2 bulb-holder">
+					<img class="bulb" src="Images/bulb_pink.png" alt="Pink Bulb">
+				</div>
+				<div class="col-md-2 col-xs-2 bulb-holder">
+					<img class="bulb" src="Images/bulb_orange.png" alt="Orange Bulb">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<img src="Images/HBD Banner.webp" class="bannar" alt="Happy Birthday Banner">
+					<img src="Images/HBD 2 Banner.webp" class="bannar" alt="Happy Birthday Banner 2">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<!-- Add the celebrate image here -->
+					<img src="Images/img1.JPG" class="celebrate-img" alt="Celebrate">
+				</div>
+			</div>
+
+			<div class="row cake-cover">
+				<div class="col-md-12 text-center">
+					<div class="cake">
+						<div class="velas">
+							<div class="fuego"></div>
+							<div class="fuego"></div>
+							<div class="fuego"></div>
+							<div class="fuego"></div>
+							<div class="fuego"></div>
+						</div>
+						<div class="cobertura"></div>
+						<div class="bizcocho"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="navbar navbar-fixed-bottom">
+				
+				<div class="row">
+					<div class="col-md-6 text-center col-md-offset-3">
+						<button class="btn btn-primary" id="turn_on">Turn On Lights</button>
+						<button class="btn btn-primary" id="play">Play Music</button>
+						<button class="btn btn-primary" id="bannar_coming">Let's Decorate</button>
+						<button class="btn btn-primary" id="balloons_flying">Fly With Balloons</button>
+						<button class="btn btn-primary" id="cake_fadein">Most Delicious Cake Ever</button>
+						<button class="btn btn-primary" id="light_candle"> Light Candle</button>
+						<button class="btn btn-primary" id="wish_message">Enter your World</button>
+						<!-- <button class="btn btn-primary" id="story">A message for you</button> -->
+						<!-- <button class="btn btn-primary" id="cake_cut">Let's Cut the Cake</button> -->
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<script src="effect.js"></script>
+
+</html>
